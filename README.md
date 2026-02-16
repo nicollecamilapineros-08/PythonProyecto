@@ -12,7 +12,7 @@ Este sistema permite a los residentes de una comunidad solicitar préstamos de h
 
 #  Cómo Usar
 
-##Como Administrador:
+## Como Administrador:
 
 1. Ejecutar: `python General.py`
 2. Seleccionar: `1` (Administrador)
@@ -24,7 +24,7 @@ Este sistema permite a los residentes de una comunidad solicitar préstamos de h
    - Reportes 
    - Ver logs del sistema
 
-##Como Usuario/Residente:
+## Como Usuario/Residente:
 
 1. Ejecutar: `python General.py`
 2. Seleccionar: `2` (Usuario)
