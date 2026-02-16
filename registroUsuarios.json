@@ -1,0 +1,28 @@
+{
+    "usuarios": [
+        {
+            "idUsuario": "001",
+            "nombre": "Marcos",
+            "apellido": "Cepeda",
+            "telefono": "3248746598",
+            "direccion": "Cra 8 #97-03",
+            "tipo": "administrador"
+        },
+        {
+            "idUsuario": "002",
+            "nombre": "Lidia",
+            "apellido": "Perez",
+            "telefono": "3148745968",
+            "direccion": "Calle 21 #33-98",
+            "tipo": "residente"
+        },
+        {
+            "idUsuario": "015",
+            "nombre": "Pepito",
+            "apellido": "Perez",
+            "telefono": "3658964215",
+            "direccion": "cra 5 #45-12",
+            "tipo": "residente"
+        }
+    ]
+}

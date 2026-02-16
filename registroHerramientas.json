@@ -1,0 +1,36 @@
+{
+    "listaHerramientas": [
+        {
+            "idHerramienta": "01",
+            "nombre": "Taladro",
+            "categoria": "construccion",
+            "estado": "activa",
+            "cantidad disponible": 7,
+            "valor estimado": 50000
+        },
+        {
+            "idHerramienta": "02",
+            "nombre": "Pala",
+            "categoria": "jardiner\u00eda",
+            "estado": "fuera de servicio",
+            "cantidad disponible": 0,
+            "valor estimado": 25000
+        },
+        {
+            "idHerramienta": "03",
+            "nombre": "Destornillador electrico",
+            "categoria": "construccion",
+            "estado": "en reparacion",
+            "cantidad disponible": 5,
+            "valor estimado": 70000
+        },
+        {
+            "idHerramienta": "05",
+            "nombre": "Pica",
+            "estado": "activa",
+            "categoria": "Construccion",
+            "valor estimado": "46000",
+            "cantidad disponible": 17
+        }
+    ]
+}

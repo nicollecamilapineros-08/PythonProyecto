@@ -1,0 +1,34 @@
+[2026-02-15 23:16:41] Intento de ingreso fallido: ID '& C:/Users/camil/AppData/Local/Microsoft/WindowsApps/python3.13.exe c:/Users/camil/Downloads/ProyectoPythonNicolle/ProyectoPythonNicolle/General.py' no existe
+[2026-02-15 23:16:52] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:17:50] Usuario registrado: Clauida Lopez (ID: 015)
+[2026-02-15 23:18:12] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:19:01] Usuario registrado: Pepito Perez (ID: 015)
+[2026-02-15 23:22:17] Herramienta registrada: Pica (ID: 05)
+[2026-02-15 23:28:16] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:30:35] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:34:08] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:45:03] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:46:54] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:51:51] Solicitud creada: #4 - 002 solicita Pica
+[2026-02-15 23:52:03] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:53:33] Ingreso exitoso: Marcos Cepeda
+[2026-02-15 23:54:04] Prestamo aprobado: #3 - 002 - Pica
+[2026-02-15 23:54:51] Solicitud creada: #5 - 002 solicita Taladro
+[2026-02-15 23:54:58] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 00:02:20] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 00:02:50] Devolucion registrada: Prestamo #3 - Pica
+[2026-02-16 00:03:25] Prestamo aprobado: #4 - 002 - Pica
+[2026-02-16 00:04:28] Solicitud creada: #6 - 002 solicita Taladro
+[2026-02-16 00:04:41] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 00:05:53] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 00:12:07] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 00:21:20] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 00:21:59] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 00:23:11] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 15:03:15] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 15:04:42] Usuario registrado: Pedro Martinez (ID: 007)
+[2026-02-16 15:09:14] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 15:10:11] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 15:11:00] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 15:22:00] Ingreso exitoso: Marcos Cepeda
+[2026-02-16 15:29:44] Ingreso exitoso: Marcos Cepeda

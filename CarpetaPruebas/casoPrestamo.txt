@@ -1,0 +1,21 @@
+═══════════════════════════════════════════════════════
+CASO DE PRUEBA: SOLICITAR PRÉSTAMO
+═══════════════════════════════════════════════════════
+
+→ Probar que un usuario puede solicitar un préstamo.
+
+PASOS:
+1. Ejecuté: python General.py
+2. Seleccioné: 2 (Usuario)
+3. Ingresé ID: 002
+4. Seleccioné: 3 (Solicitar préstamo)
+5. Ingresé ID herramienta: 01
+6. Ingresé cantidad: 2
+7. Observaciones: Para arreglar mi casa
+
+LO QUE MOSTRÓ EL PROGRAMA:
+✅ Solicitud #003 creada.
+⏳ Esperando aprobación del administrador.
+
+RESULTADO:
+→ FUNCIONA. La solicitud se guardó en prestamos.json

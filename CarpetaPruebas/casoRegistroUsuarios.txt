@@ -1,0 +1,26 @@
+═══════════════════════════════════════════════════════
+CASO DE PRUEBA: REGISTRO DE USUARIO
+═══════════════════════════════════════════════════════
+
+→ Probar que se puede registrar un nuevo usuario correctamente.
+
+PASOS:
+1. Ejecuté el programa: python General.py
+2. Seleccioné opción: 1 (Administrador)
+3. Ingresé ID: 001
+4. Seleccioné: 1 (Gestión de usuarios)
+5. Seleccioné: 1 (Registrar usuarios)
+6. Ingresé cantidad: 1
+7. Ingresé datos:
+   ID: 007
+   Nombre: Pedro
+   Apellido: Martinez
+   Teléfono: 3001234567
+   Dirección: Calle 50 #20-10
+   Tipo: residente
+
+LO QUE MOSTRÓ EL PROGRAMA:
+✔️ Usuario Pedro Martinez registrado exitosamente.
+
+RESULTADO:
+→ FUNCIONA. El usuario se guardó en registroUsuarios.json

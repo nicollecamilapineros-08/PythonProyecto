@@ -1,0 +1,63 @@
+{
+    "listaPrestamos": [
+        {
+            "idPrestamo": "001",
+            "idUsuario": "002",
+            "idHerramienta": "01",
+            "nombreHerramienta": "Taladro",
+            "fechaDevolucion": "10/02/2026",
+            "estado": "activo",
+            "cantidadSolicitada": 2
+        },
+        {
+            "idPrestamo": "2",
+            "idUsuario": "",
+            "idHerramienta": "05",
+            "nombreHerramienta": "Pica",
+            "cantidadSolicitada": 2,
+            "fechaDevolucion": "15/02/2026",
+            "estado": "activo",
+            "observaciones": ""
+        },
+        {
+            "idPrestamo": "3",
+            "idUsuario": "002",
+            "idHerramienta": "05",
+            "nombreHerramienta": "Pica",
+            "cantidadSolicitada": 2,
+            "fechaDevolucion": "18/05/2027",
+            "estado": "activo",
+            "observaciones": ""
+        },
+        {
+            "idPrestamo": "4",
+            "idUsuario": "002",
+            "idHerramienta": "05",
+            "nombreHerramienta": "Pica",
+            "cantidadSolicitada": 2,
+            "fechaDevolucion": "",
+            "estado": "pendiente",
+            "observaciones": ""
+        },
+        {
+            "idPrestamo": "5",
+            "idUsuario": "002",
+            "idHerramienta": "01",
+            "nombreHerramienta": "Taladro",
+            "cantidadSolicitada": 1,
+            "fechaDevolucion": "",
+            "estado": "pendiente",
+            "observaciones": ""
+        },
+        {
+            "idPrestamo": "6",
+            "idUsuario": "002",
+            "idHerramienta": "01",
+            "nombreHerramienta": "Taladro",
+            "cantidadSolicitada": 1,
+            "fechaDevolucion": "",
+            "estado": "pendiente",
+            "observaciones": "no"
+        }
+    ]
+}
