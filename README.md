@@ -1,16 +1,16 @@
-# 🛠️ Sistema de Gestión de Herramientas Comunitarias - Santa Ana
+#  Sistema de Gestión de Herramientas Comunitarias - Santa Ana
 
 
 En muchos barrios existe la costumbre de compartir herramientas entre vecinos para evitar que cada persona tenga que comprarlas todas. El problema es que, con el tiempo, se pierde el control: algunas herramientas no se devuelven a tiempo, otras se dañan y no se sabe quién las tiene, o simplemente no hay registro claro de cuántas hay disponibles. El sistema registra las herramientas, los vecinos y los préstamos realizados. Con esta solución, esperan que cualquier integrante de la comunidad pueda consultar la información sin depender de cuadernos ni llamadas telefónicas.
 
 
-# 📋 Descripción
+#  Descripción
 
 Este sistema permite a los residentes de una comunidad solicitar préstamos de herramientas de uso común (taladros, palas, martillos, etc.) de forma organizada. Los administradores pueden gestionar el inventario, aprobar solicitudes y generar reportes del uso de las herramientas.
 
 
 
-# 📖 Cómo Usar
+#  Cómo Usar
 
 ##Como Administrador:
 
@@ -36,7 +36,7 @@ Este sistema permite a los residentes de una comunidad solicitar préstamos de h
    - Ver mis préstamos
 
 
-# 🎯 Funcionalidades Principales
+#  Funcionalidades Principales
 
 ### Módulo Administrador
 - Gestión de usuarios (CRUD completo)
@@ -57,7 +57,7 @@ Este sistema permite a los residentes de una comunidad solicitar préstamos de h
 - Crear solicitudes de préstamo
 - Ver estado de mis préstamos
 
-### 📝 Sistema de Logs
+###  Sistema de Logs
 - Registro automático de eventos importantes
 - Registro de errores (ej: intentos de préstamo sin stock)
 - Trazabilidad completa de operaciones
