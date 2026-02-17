@@ -75,7 +75,7 @@ def menuUsuario(inventario, prestamos):
 def crearSolicitud(inventario, prestamos):
  
 
-    #DISPONIBILIDAD
+    #DISPONIBILIDAD CANTIDAD Y ESTADO ACTIVA:
 
     disponible = []
     for herramienta in inventario["listaHerramientas"]:

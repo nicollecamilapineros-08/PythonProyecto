@@ -1,5 +1,7 @@
 #  Sistema de Gestión de Herramientas Comunitarias - Santa Ana
 
+Presentación MP4 de funcionalidad: https://drive.google.com/file/d/15dg_o2_9h5MeFB0uriuYdOIwGpLfA9Wt/view?usp=sharing
+
 
 En muchos barrios existe la costumbre de compartir herramientas entre vecinos para evitar que cada persona tenga que comprarlas todas. El problema es que, con el tiempo, se pierde el control: algunas herramientas no se devuelven a tiempo, otras se dañan y no se sabe quién las tiene, o simplemente no hay registro claro de cuántas hay disponibles. El sistema registra las herramientas, los vecinos y los préstamos realizados. Con esta solución, esperan que cualquier integrante de la comunidad pueda consultar la información sin depender de cuadernos ni llamadas telefónicas.
 
