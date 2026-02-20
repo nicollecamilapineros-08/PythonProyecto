@@ -109,6 +109,32 @@ def aprobarPrestamo(inventario, prestamos):
     
 
     while True:
+        fechaDeHoy =input("📅  Ingrese la fecha de hoy (inicio del préstamo): (DD/MM/AAAA):").strip()
+
+         if len(fechaDeHoy) != 10:
+            print("⚠️ Formato incorrecto. Debe ser DD/MM/AAAA (ej: 15/02/2026)")
+            continue
+            
+        if fechaDeHoy[2] != "/" or fechaDeHoy[5] != "/":
+            print("⚠️ Debe usar "/" para separar (DD/MM/AAAA). ")
+            continue
+        
+        partes = fechaDeHoy.split("/")
+            
+        if len(partes) != 3:
+            print("⚠️ Formato incorrecto.")
+            continue
+            
+        dia = partes[0]
+        mes = partes[1]
+        anio = partes[2]
+            
+        if not dia.isdigit() or not mes.isdigit() or not anio.isdigit():
+            print("⚠️ Día, mes y año deben ser números.")
+            continue
+        break
+
+#_________________________________________________
         fechaDevolucion = input("📅 Ingrese la fecha límite de devolución (DD/MM/AAAA): ").strip()
             
         if len(fechaDevolucion) != 10:
@@ -144,7 +170,6 @@ def aprobarPrestamo(inventario, prestamos):
     guardarPrestamos(prestamos)
     print(f"✔️ Prestamo {idPrestamo} aprobado.")
     registrarLog(f"Prestamo aprobado: #{idPrestamo} - {solicitudEncontrada['idUsuario']} - {solicitudEncontrada['nombreHerramienta']}")
-
     print(f"→ FECHA LÍMITE: {fechaDevolucion}")
 
 #REGISTRAR DEVOLUCIÓN:__________________________________________________________

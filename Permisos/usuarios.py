@@ -143,10 +143,13 @@ def crearSolicitud(inventario, prestamos):
 
     nuevaSolicitud = {
         "idPrestamo": idPrestamo,
-        "idUsuario": idUsuario,
+        "nombre": idUsuario["nombre"],
+        "apellido": idUsuario["apellido"],
+        "idUsuario": idUsuario
         "idHerramienta": idHerramienta,
         "nombreHerramienta": herramientaEncontrada["nombre"],
         "cantidadSolicitada": cantidadSolicitada,
+        "fechaDeInicio": "",
         "fechaDevolucion": "",  
         "estado": "pendiente",  
         "observaciones": observaciones
