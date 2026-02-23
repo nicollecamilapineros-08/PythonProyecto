@@ -194,3 +194,4 @@ def usuariosMasActivos(prestamos):
     for usuario, cantidad in total.items():
         print(f"{usuario:<25} {cantidad:<12}")
     print("=" * 55 + "\033[0m") 
+

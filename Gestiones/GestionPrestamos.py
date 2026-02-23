@@ -111,7 +111,7 @@ def aprobarPrestamo(inventario, prestamos):
     while True:
         fechaDeHoy =input("📅  Ingrese la fecha de hoy (inicio del préstamo): (DD/MM/AAAA):").strip()
 
-         if len(fechaDeHoy) != 10:
+        if len(fechaDeHoy) != 10:
             print("⚠️ Formato incorrecto. Debe ser DD/MM/AAAA (ej: 15/02/2026)")
             continue
             
@@ -134,38 +134,39 @@ def aprobarPrestamo(inventario, prestamos):
             continue
         break
 
-#_________________________________________________
+    while True:
+        
         fechaDevolucion = input("📅 Ingrese la fecha límite de devolución (DD/MM/AAAA): ").strip()
-            
+                
         if len(fechaDevolucion) != 10:
             print("⚠️ Formato incorrecto. Debe ser DD/MM/AAAA (ej: 15/02/2026)")
             continue
-            
+                
         if fechaDevolucion[2] != "/" or fechaDevolucion[5] != "/":
             print("⚠️ Debe usar "/" para separar (DD/MM/AAAA). ")
             continue
-        
-        partes = fechaDevolucion.split("/")
             
+        partes = fechaDevolucion.split("/")
+                
         if len(partes) != 3:
             print("⚠️ Formato incorrecto.")
             continue
-            
+                
         dia = partes[0]
         mes = partes[1]
         anio = partes[2]
-            
+                
         if not dia.isdigit() or not mes.isdigit() or not anio.isdigit():
             print("⚠️ Día, mes y año deben ser números.")
             continue
         break
 
     observaciones = input("(OPCIONAL) Observaciones:").strip().lower()
-    
+        
     solicitudEncontrada["estado"] = "activo"
     solicitudEncontrada["fechaDevolucion"] = fechaDevolucion
     solicitudEncontrada["observaciones"] = observaciones
-        
+            
     herramienta["cantidad disponible"] = int(disponible["cantidad disponible"]) - int(solicitudEncontrada["cantidadSolicitada"])
     guardarPrestamos(prestamos)
     print(f"✔️ Prestamo {idPrestamo} aprobado.")
